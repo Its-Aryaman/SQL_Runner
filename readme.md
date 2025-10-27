@@ -93,27 +93,31 @@ sql-runner/
    cd sql-runner/backend
 
 ## Create and activate a virtual environment:
-
+```
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
-
+```
 ## Install dependencies:
-
+```
 pip install flask flask-cors pyjwt
-
+```
 ## Run the backend:
-Create and activate a virtual environment:
 
+Create and activate a virtual environment:
+```
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 Install dependencies:
-
+```
+```
 pip install flask flask-cors pyjwt
+```
 Run the backend:
-
+```
 python app.py
+```
 The backend will start at:
 👉 http://127.0.0.1:5000
 
@@ -136,9 +140,10 @@ Make sure both servers (Flask + React) are running.
 Visit http://localhost:3000 in your browser.
 
 Login using the default credentials:
-
+```
 Username: admin
 Password: admin
+```
 Explore the tables, execute SQL queries, and view the results interactively.
 
 🔗 API Endpoints
