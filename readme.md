@@ -60,6 +60,10 @@ It’s designed as a lightweight web-based SQL client built using **React** and 
 
 ## 📂 Project Structure
 
+
+## Project Structure
+
+```
 sql-runner/
 │
 ├── backend/
@@ -78,7 +82,7 @@ sql-runner/
 └── requirements.txt
 
 
----
+```
 
 ## ⚙️ Installation
 
