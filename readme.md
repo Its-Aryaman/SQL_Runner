@@ -148,6 +148,9 @@ Password: admin
 Explore the tables, execute SQL queries, and view the results interactively.
 
 🔗 API Endpoints
+- **Authentication**:
+  - `POST /api/auth/register`: Register a user (`username`, `password`, optional `role`).
+  - `POST /api/auth/login`: Login and get JWT token.
 Method	Endpoint	Description
 POST	/login	Authenticate user and return a JWT token
 POST	/run-query	Execute a SQL query
