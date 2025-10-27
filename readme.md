@@ -77,9 +77,7 @@ sql-runner/
 │ │ ├── index.js # React entry point
 │ │ └── ...
 │ └── package.json
-│
-├── README.md
-└── requirements.txt
+└──  README.md
 
 
 ```
@@ -123,21 +121,24 @@ The backend will start at:
 
 ## 🖥️ Frontend Setup (React)
 Open a new terminal and navigate to:
-
+```
 cd sql-runner/frontend
+```
 Install dependencies:
-
+```
 npm install
+```
 Start the frontend:
-
+```
 npm start
+```
 The app will open automatically at:
-👉 http://localhost:3000
+👉 http://localhost:5174
 
 🚀 Usage
 Make sure both servers (Flask + React) are running.
 
-Visit http://localhost:3000 in your browser.
+Visit http://localhost:5174 in your browser.
 
 Login using the default credentials:
 ```
@@ -171,7 +172,7 @@ python
 Run the following:
 
 import sqlite3
-
+```
 conn = sqlite3.connect("sql_runner.db")
 c = conn.cursor()
 c.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)")
@@ -180,3 +181,4 @@ c.execute("INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com')")
 conn.commit()
 conn.close()
 Restart your Flask server — the new table will appear in the UI.
+```
