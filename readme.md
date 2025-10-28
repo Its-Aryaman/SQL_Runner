@@ -143,7 +143,7 @@ Explore the tables, execute SQL queries, and view the results interactively.
 🔗 API Endpoints
 - **Authentication**:
   - `POST /api/auth/login`: Login and get JWT token.
-Method	Endpoint	Description
+- **Query**:
   - `POST	/login`:	Authenticate user and return a JWT token
   - `POST	/run-query`:	Execute a SQL query
   - `GET	/tables`:	Retrieve all table names
