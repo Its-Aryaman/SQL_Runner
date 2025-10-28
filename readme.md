@@ -88,10 +88,7 @@ python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
-## Install dependencies:
-```
-pip install flask flask-cors pyjwt
-```
+
 ## Run the backend:
 
 Create and activate a virtual environment:
@@ -100,8 +97,7 @@ python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
-Install dependencies:
-
+## Install dependencies:
 ```
 pip install flask flask-cors pyjwt
 ```
