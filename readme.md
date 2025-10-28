@@ -149,6 +149,7 @@ Method	Endpoint	Description
   - `GET	/tables`:	Retrieve all table names
   - `GET	/table-info/<table_name>`:	Get column info and sample data for a table
   - `GET	/recent-queries`:	Fetch recent user queries
+
 ⚙️ Configuration
 You can customize the following in app.py:
 
@@ -156,6 +157,7 @@ DATABASE = "sql_runner.db"
 SECRET_KEY = "my_very_secret_key"
 USERNAME = "admin"
 PASSWORD = "admin"
+
 ⚠️ Security Tip: For production, move these values to environment variables.
 
 ## 🧱 Setting Up the Database
