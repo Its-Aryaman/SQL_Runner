@@ -86,9 +86,9 @@ sql-runner/
 Below are screenshots of the key interfaces in the SQL Runner:
 
 - **Login Page**: Shows the login form with username and password.
-  ![Login Page](screenshots/Login.png)
+  ![Login Page](Screenshots/Login.png)
 - **Dashboard**: Displays the search bar, sweets table, and "Add Sweet" button.
-  ![Dashboard](screenshots/Dashboard.png)
+  ![Dashboard](Screenshots/Dashboard.png)
 
 *Note*: Screenshots are stored in the `screenshots/` folder. See **Adding Screenshots** below for instructions on capturing and updating them.
 
