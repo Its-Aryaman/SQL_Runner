@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 
 DATABASE = "sql_runner.db"
-SECRET_KEY = "my_very_secret_key"
+SECRET_KEY = "e1b4c8f8a03b2d51a4c0e2c7d93a079fbbd7c703cb1c31247ad8f0aa90f234c"
 
 USERNAME = "admin"
 PASSWORD = "admin"
