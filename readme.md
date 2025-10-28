@@ -6,24 +6,6 @@ This project demonstrates end-to-end development using modern JavaScript and Pyt
 
 ---
 
-## 📚 Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-  - [Backend Setup (Flask)](#backend-setup-flask)
-  - [Frontend Setup (React)](#frontend-setup-react)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Configuration](#configuration)
-- [Setup Database](#setup-database)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
 ## 🧩 Introduction
 **SQL Runner** is a web-based tool that allows users to:
 - Authenticate with a username and password.
@@ -87,10 +69,10 @@ Below are screenshots of the key interfaces in the SQL Runner:
 
 - **Login Page**: Shows the login form with username and password.
   ![Login Page](Screenshots/Login.png)
-- **Dashboard**: Displays the search bar, sweets table, and "Add Sweet" button.
+- **Dashboard**: Displays the tables in sidebar, Query textbox, output and Query history.
   ![Dashboard](Screenshots/Dashboard.png)
 
-*Note*: Screenshots are stored in the `screenshots/` folder. See **Adding Screenshots** below for instructions on capturing and updating them.
+*Note*: Screenshots are stored in the `Screenshots/` folder. See **Adding Screenshots** below for instructions on capturing and updating them.
 
 ## ⚙️ Installation
 
@@ -117,8 +99,9 @@ Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
-Install dependencies:
 ```
+Install dependencies:
+
 ```
 pip install flask flask-cors pyjwt
 ```
@@ -188,9 +171,7 @@ sqlite3 --version
 If you don’t see a version number:
 
 macOS: Install via Homebrew:
-```
-bash
-Copy code
+```bash
 brew install sqlite3
 ```
 Windows/Linux: Visit https://www.sqlite.org/download.html for installation options.
@@ -198,9 +179,7 @@ Windows/Linux: Visit https://www.sqlite.org/download.html for installation optio
 
 🧩 Step 2: Create the Database File
 Navigate to your backend project folder and run:
-```
-bash
-Copy code
+```bash
 sqlite3 sql_runner.db
 ```
 This creates a new SQLite database file and opens the SQLite shell (sqlite> prompt).
@@ -208,9 +187,7 @@ This creates a new SQLite database file and opens the SQLite shell (sqlite> prom
 🧩 Step 3: Create Tables and Insert Sample Data
 Once inside the SQLite prompt, copy and paste the SQL below to create your sample tables:
 
-sql
-Copy code
-```
+```sql
 -- Create the Customers table
 CREATE TABLE Customers (
   customer_id INTEGER PRIMARY KEY AUTOINCREMENT,
